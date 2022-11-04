@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.rgbEffect{
+    animation: color-change 12s infinite;
+}
+@keyframes color-change {
+    0% {color:#09f;}
+    20% { color:#f04dff;}
+    40% {color: #ff4d4d;}
+    60% {color: #ffc54d;}
+    80% {color: #6aed76;}
+    100% {color:#09f;}
+}
+.fa-sharp{
+    position: relative;
+    top: 1.5px;
+    left: 1px;
+}
+.resumeLink:hover .fa-sharp{
+    left: 2px;
+}
