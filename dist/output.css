@@ -561,10 +561,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .top-\[1\.5px\] {
   top: 1.5px;
 }
@@ -648,6 +644,16 @@ video {
           animation: color-change 12s infinite;
 }
 
+::-moz-selection {
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}
+
 @-webkit-keyframes color-change {
   0% {
     color:#09f;
@@ -701,5 +707,11 @@ video {
 }
 
 #resumeLink:hover .fa-sharp{
+  left: 7px;
+  transition: .5s;
+}
+
+#resumeLink:not(:hover) .fa-sharp{
   left: 2px;
+  transition: .5s;
 }

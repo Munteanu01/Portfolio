@@ -4,6 +4,10 @@
 .rgbEffect{
     animation: color-change 12s infinite;
 }
+::selection {
+    color: black;
+    background: white;
+}
 @keyframes color-change {
     0% {color:#09f;}
     20% { color:#f04dff;}
@@ -13,5 +17,10 @@
     100% {color:#09f;}
 }
 #resumeLink:hover .fa-sharp{
+    left: 7px;
+    transition: .5s;
+}
+#resumeLink:not(:hover) .fa-sharp{
     left: 2px;
+    transition: .5s;
 }
