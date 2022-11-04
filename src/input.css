@@ -12,11 +12,6 @@
     80% {color: #6aed76;}
     100% {color:#09f;}
 }
-.fa-sharp{
-    position: relative;
-    top: 1.5px;
-    left: 1px;
-}
-.resumeLink:hover .fa-sharp{
+#resumeLink:hover .fa-sharp{
     left: 2px;
 }

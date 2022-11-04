@@ -557,8 +557,20 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .sticky {
   position: sticky;
+}
+
+.top-\[1\.5px\] {
+  top: 1.5px;
+}
+
+.left-\[1px\] {
+  left: 1px;
 }
 
 .mx-48 {
@@ -600,11 +612,6 @@ video {
   text-align: end;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-\[6rem\] {
   font-size: 6rem;
 }
@@ -634,10 +641,6 @@ video {
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .rgbEffect{
@@ -697,17 +700,6 @@ video {
   }
 }
 
-.fa-sharp{
-  position: relative;
-  top: 1.5px;
-  left: 1px;
-}
-
-.resumeLink:hover .fa-sharp{
+#resumeLink:hover .fa-sharp{
   left: 2px;
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
