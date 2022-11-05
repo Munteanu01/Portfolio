@@ -573,28 +573,12 @@ video {
   left: 1px;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.bottom-12 {
+  bottom: 3rem;
 }
 
 .right-0 {
   right: 0px;
-}
-
-.bottom-9 {
-  bottom: 2.25rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
-.bottom-11 {
-  bottom: 2.75rem;
-}
-
-.bottom-12 {
-  bottom: 3rem;
 }
 
 .mx-48 {
@@ -602,35 +586,26 @@ video {
   margin-right: 12rem;
 }
 
-.mx-28 {
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
-
-.mx-24 {
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
-.mt-44 {
-  margin-top: 11rem;
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mt-16 {
   margin-top: 4rem;
 }
 
-.flex {
-  display: flex;
+.mt-72 {
+  margin-top: 18rem;
 }
 
-.h-\[100\%\] {
-  height: 100%;
+.flex {
+  display: flex;
 }
 
 .h-\[100vh\] {
@@ -641,6 +616,10 @@ video {
   width: 13rem;
 }
 
+.content-center {
+  align-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -648,6 +627,18 @@ video {
 .bg-\[\#121212\] {
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
+.pt-\[50vh\] {
+  padding-top: 50vh;
+}
+
+.pt-\[25vh\] {
+  padding-top: 25vh;
 }
 
 .text-end {
@@ -661,36 +652,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .text-\[46px\] {
@@ -709,52 +670,8 @@ video {
   line-height: 7rem;
 }
 
-.leading-\[20px\] {
-  line-height: 20px;
-}
-
-.leading-\[1rem\] {
-  line-height: 1rem;
-}
-
-.leading-\[2rem\] {
-  line-height: 2rem;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-7 {
-  line-height: 1.75rem;
-}
-
-.leading-8 {
-  line-height: 2rem;
-}
-
-.leading-9 {
-  line-height: 2.25rem;
-}
-
-.leading-\[2\.1rem\] {
-  line-height: 2.1rem;
-}
-
 .leading-\[2\.05rem\] {
   line-height: 2.05rem;
-}
-
-.leading-\[2\.08rem\] {
-  line-height: 2.08rem;
-}
-
-.leading-\[2\.07rem\] {
-  line-height: 2.07rem;
 }
 
 .text-\[\#FFFFFF\] {
