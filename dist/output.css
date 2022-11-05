@@ -639,6 +639,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .rgbEffect{
   -webkit-animation: color-change 12s infinite;
           animation: color-change 12s infinite;
@@ -707,11 +711,12 @@ video {
 }
 
 #resumeLink:hover .fa-sharp{
-  left: 7px;
-  transition: .5s;
+  opacity: 1;
+  left: 5px;
+  transition: 1s;
 }
 
 #resumeLink:not(:hover) .fa-sharp{
   left: 2px;
-  transition: .5s;
+  transition: 1s;
 }

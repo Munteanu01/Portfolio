@@ -17,10 +17,11 @@
     100% {color:#09f;}
 }
 #resumeLink:hover .fa-sharp{
-    left: 7px;
-    transition: .5s;
+    opacity: 1;
+    left: 5px;
+    transition: 1s;
 }
 #resumeLink:not(:hover) .fa-sharp{
     left: 2px;
-    transition: .5s;
+    transition: 1s;
 }
