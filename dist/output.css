@@ -579,6 +579,16 @@ video {
   margin-right: 7rem;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
 .mt-44 {
   margin-top: 11rem;
 }
@@ -632,6 +642,34 @@ video {
 
 .leading-\[7rem\] {
   line-height: 7rem;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
+}
+
+.leading-\[1rem\] {
+  line-height: 1rem;
+}
+
+.leading-\[2rem\] {
+  line-height: 2rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-\[\#FFFFFF\] {
@@ -712,11 +750,15 @@ video {
 
 #resumeLink:hover .fa-sharp{
   opacity: 1;
-  left: 5px;
-  transition: 1s;
+  left: 6px;
+  transition: 0.7s;
 }
 
 #resumeLink:not(:hover) .fa-sharp{
-  left: 2px;
-  transition: 1s;
+  left: 1px;
+  transition: 0.7s;
+}
+
+.menuLinks a:hover span{
+  display: none;
 }

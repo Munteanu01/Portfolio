@@ -18,10 +18,13 @@
 }
 #resumeLink:hover .fa-sharp{
     opacity: 1;
-    left: 5px;
-    transition: 1s;
+    left: 6px;
+    transition: 0.7s;
 }
 #resumeLink:not(:hover) .fa-sharp{
-    left: 2px;
-    transition: 1s;
+    left: 1px;
+    transition: 0.7s;
+}
+.menuLinks a:hover span{
+    display: none;
 }
