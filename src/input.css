@@ -25,6 +25,3 @@
     left: 1px;
     transition: 0.7s;
 }
-.menuLinks a:hover span{
-    display: none;
-}
