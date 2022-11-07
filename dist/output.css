@@ -631,6 +631,11 @@ video {
   margin-right: 1.75rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -975,6 +980,10 @@ video {
     margin-right: 6rem;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1001,6 +1010,14 @@ video {
 
   .lg\:text-\[5rem\] {
     font-size: 5rem;
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+
+  .lg\:text-\[3\.5rem\] {
+    font-size: 3.5rem;
   }
 
   .lg\:leading-\[7rem\] {
