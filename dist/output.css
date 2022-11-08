@@ -661,16 +661,24 @@ video {
   width: 7rem;
 }
 
-.w-\[400px\] {
-  width: 400px;
-}
-
 .w-\[200px\] {
   width: 200px;
 }
 
 .max-w-md {
   max-width: 28rem;
+}
+
+.snap-y {
+  scroll-snap-type: y var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
 }
 
 .list-disc {
@@ -693,16 +701,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-10 {
   gap: 2.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
+.overflow-scroll {
+  overflow: scroll;
 }
 
 .scroll-smooth {
@@ -778,10 +782,6 @@ video {
   padding-right: 90px;
 }
 
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
 }
@@ -798,6 +798,18 @@ video {
   padding-top: 30vh;
 }
 
+.pt-\[20vh\] {
+  padding-top: 20vh;
+}
+
+.pt-\[15vh\] {
+  padding-top: 15vh;
+}
+
+.pt-\[10vh\] {
+  padding-top: 10vh;
+}
+
 .text-center {
   text-align: center;
 }
@@ -808,6 +820,14 @@ video {
 
 .text-end {
   text-align: end;
+}
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-\[2rem\] {
@@ -867,7 +887,7 @@ video {
 
 html, body {
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 ::-webkit-scrollbar{
