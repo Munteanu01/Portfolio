@@ -34,7 +34,7 @@ html, body {
 #resumeLink:hover .fa-sharp{
     opacity: 1;
     left: 6px;
-    transition: 0.7s;
+    transition: 0.5s;
 }
 #resumeLink:not(:hover) .fa-sharp{
     left: 1px;
