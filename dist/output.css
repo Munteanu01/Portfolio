@@ -765,28 +765,16 @@ video {
   margin-right: 1.25rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mr-3 {
   margin-right: 0.75rem;
 }
 
-.mr-4 {
-  margin-right: 1rem;
-}
-
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
 .mr-1 {
   margin-right: 0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .box-border {
@@ -883,10 +871,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .w-\[200px\] {
@@ -2495,11 +2479,6 @@ html, body {
   background: black;
 }
 
-.rgbEffect{
-  -webkit-animation: color-change 12s infinite;
-          animation: color-change 12s infinite;
-}
-
 ::-moz-selection {
   color: black;
   background: white;
@@ -2510,67 +2489,15 @@ html, body {
   background: white;
 }
 
-@-webkit-keyframes color-change {
-  0% {
-    color:#09f;
-  }
-
-  20% {
-    color:#f04dff;
-  }
-
-  40% {
-    color: #ff4d4d;
-  }
-
-  60% {
-    color: #ffc54d;
-  }
-
-  80% {
-    color: #6aed76;
-  }
-
-  100% {
-    color:#09f;
-  }
-}
-
-@keyframes color-change {
-  0% {
-    color:#09f;
-  }
-
-  20% {
-    color:#f04dff;
-  }
-
-  40% {
-    color: #ff4d4d;
-  }
-
-  60% {
-    color: #ffc54d;
-  }
-
-  80% {
-    color: #6aed76;
-  }
-
-  100% {
-    color:#09f;
-  }
-}
-
 #resumeLink:hover .fa-sharp{
   opacity: 1;
-  left: 6px;
-  transition: 0.7s;
+  transform: translateX(4px);
+  transition: 0.4s;
 }
 
 #resumeLink:not(:hover) .fa-sharp{
-  left: 1px;
-  transition: 0.7s;
+  transform: translateX(-2px);
+  transition: 0.4s;
 }
 
 .hover\:font-bold:hover {
@@ -2704,10 +2631,6 @@ html, body {
     display: flex;
   }
 
-  .lg\:w-44 {
-    width: 11rem;
-  }
-
   .lg\:max-w-2xl {
     max-width: 42rem;
   }
@@ -2756,10 +2679,6 @@ html, body {
 @media (min-width: 1280px) {
   .xl\:h-\[400px\] {
     height: 400px;
-  }
-
-  .xl\:w-52 {
-    width: 13rem;
   }
 
   .xl\:w-\[600px\] {

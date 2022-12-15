@@ -16,20 +16,9 @@ html, body {
 ::-webkit-scrollbar-thumb{
     background: black;
 }
-.rgbEffect{
-    animation: color-change 12s infinite;
-}
 ::selection {
     color: black;
     background: white;
-}
-@keyframes color-change {
-    0% {color:#09f;}
-    20% { color:#f04dff;}
-    40% {color: #ff4d4d;}
-    60% {color: #ffc54d;}
-    80% {color: #6aed76;}
-    100% {color:#09f;}
 }
 #resumeLink:hover .fa-sharp{
     opacity: 1;
